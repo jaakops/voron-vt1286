@@ -1,13 +1,13 @@
 # Voron-vt1286
 https://docs.vorondesign.com/community/howto/EricZimmerman/BackupConfigToGithub.html
 
-Voron Trident Magicphoenix CBT lite kit
+Voron Trident Magicphoenix CBT lite (300x300x250) kit
 
 
 # Config
 
 
-Klipper configs for VT.1286 (VT 300) printer running Mainsail.
+Klipper configs for VT.1286 running Mainsail
 
 
 
@@ -15,63 +15,65 @@ Klipper configs for VT.1286 (VT 300) printer running Mainsail.
 
 BOM: https://mpx.wiki/VORON-TRIDENT-CBT-KIT/Trident-CBT-Bom#trident-cbt-lite
 
-### Coming:
+### Plans:
 
-* Monolith gantry in ASA CF. Eventually in laser cut alu
-
-* AWD Wantai 811
-
-* 24V + 48V UHP PSUs
-
-* 4x BTT External 5160
-
-* 6mm GT3 belts + bearings pulleys idlers etc
+* Beacon probe
+* Some MMU? Tradrack or box turtle
+* Monolith gantry in laser cut alu
+* Cpap with xolpap duct?
+* Krytox gpl 226 for rails and bearings to run 80-100c chamber?
 
 
 
 ### Electronics
 
-* A/B Motors: Moons MS17HD6P4200
+* XY Motors: ~~2x Moons MS17HD6P4200~~ 4x Wantai 17HS5425L55-X2-1000
 
 * Z Motors: Moons 42SHDC4049YZ-300N
 
-* MCU: BTT Manta M8P w/ TMC2209
+* XY drivers: 4x BTT externals/5160T Plus
 
-* PSU 24v: Mean Well LRS-200-24
+* Z drivers: 2209
+
+* MCU: BTT Manta M8P V1.1
+
+* PSU 24v: Meanwell ~~LRS-200-24~~ UHP-200-24
+
+* PSU 48V: Meanwell UHP-200-48
 
 * Host: BTT CB1
 
-* Display: None
+* Display: None (mobileraker on phone)
 
 * Camera: Aliexpress 4 eur very bad
 
-* Relay: TP-Link Tapo P100 wifi plug
+* Wifi relay: TP-Link Tapo P100 wifi plug
 
 
-### CAN BUS toolhead
+### CAN BUS
 
-* Board: BTT EBB36
+* Toolhead board: BTT EBB36
 
-* Control board: BTT U2C
+* CAN module: BTT U2C
 
-* CAN-cable: 3do CAN+USB cable
+* CAN cable: 3do CAN+USB cable
 
 
 ### Toolhead
 
-* Toolhead: Xol + Sherpa mini in 3dxtech EZPCCF
+* Toolhead: Xol + ~~sherpa mini~~ wwg2 in 3dxtech EZPCCF
 
 * Hotend: Phaetus Dragon UHF
 
-* Hotend fan: Delta 2510
+* Hotend fan: Delta 2510 12V
 
-* Partcooling fan: Delta Electronics 12v BFB0412HHA-A117 with xol recommended buck converter
+* Partcooling fan: 2x Delta 4010 12V BFB0412HHA-A117 with xol recommended buck converter
 
-* Extruder: Sherpa mini
+* Extruder: ~~Sherpa mini~~ WristWatch Galileo 2
 
 * Nozzle: Undertaker 0.5mm
 
-* Probe: Klicky00 in ezpccf
+* Probe: Klicky00 in EZPCCF
 
 
 ### Enclosure
@@ -87,11 +89,13 @@ BOM: https://mpx.wiki/VORON-TRIDENT-CBT-KIT/Trident-CBT-Bom#trident-cbt-lite
 
 * Frame: Magicphoenix VT 300
 
-* X linear rail: Magicphoenix non-stainless - MGN12H
+* X linear rail: ~~Magicphoenix non-stainless - MGN12H~~ [Youmetong 350mm 12h-z2-medium preload](https://www.aliexpress.com/item/1005001463833841.html)
 
 * Y linear rail: Magicphoenix non-stainless - MGN9H
 
 * Z linear rail: Magicphoenix non-stainless - MGN9H
+
+* Belts: Gates 6mm GT3 LL-2MGT
 
 
 
@@ -109,27 +113,29 @@ BOM: https://mpx.wiki/VORON-TRIDENT-CBT-KIT/Trident-CBT-Bom#trident-cbt-lite
 
 ### Modifications
 
+* Chamber heater: 500w 230v https://lab4450.com/product-category/voron-v2-vt/heated-chamber/
+
 * Embiggened monolith panels ~~Annex Panel 2020 Clips and Hinges~~
 
 * Webcam mount: something very similar to [this](https://www.printables.com/model/404254-2020-alu-extrusion-webcam-mount-for-aukey-1080p-we) but for ov5648
 
 * Motor thermistors
 
-* Y steel backers
+* ~~Y steel backers~~ unnecessary with monolith
 
 * Keystone Jack Universal Skirt Insert
 
-* LED mounts
+* Disco on a stick LED mounts
 
 * Skirt mod for keystone and usb passthrough
 
 * [Emergency stop button](https://www.aliexpress.com/item/1005005173725237.html) and [macros here](https://github.com/jontek2/V2-1645-klipper_config/blob/main/macros/emergency_stop.cfg)
   
-* Nevermore v6 micro
+* Nevermore micro v6 
 
-* 4 bed fans with wagos under bed
+* 4x gdstime 5015 bed fans with wagos under bed
 
-* BFI Front idlers
+* ~~BFI Front idlers~~ Replaced with monolith
  
 * ~~Sturdy handles~~ Dont work with monolith panels
 
