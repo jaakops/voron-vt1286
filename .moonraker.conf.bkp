@@ -104,3 +104,10 @@ primary_branch = main
 managed_services = klipper
 install_script = install.sh
 
+[update_manager motors-sync]
+type = git_repo
+path = /home/biqu/motors-sync
+origin = https://github.com/MRX8024/motors-sync.git
+primary_branch = main
+managed_services = klipper
+
