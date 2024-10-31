@@ -15,15 +15,6 @@ Klipper configs for VT.1286 running Mainsail
 
 BOM: https://mpx.wiki/VORON-TRIDENT-CBT-KIT/Trident-CBT-Bom#trident-cbt-lite
 
-### Plans:
-
-* Beacon probe
-* Some MMU? Tradrack or box turtle
-* Monolith gantry in laser cut alu
-* Cpap with xolpap duct?
-* Krytox gpl 226 for rails and bearings to run 80-100c chamber?
-
-
 
 ### Electronics
 
