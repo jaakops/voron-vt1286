@@ -24,6 +24,7 @@ cors_domains =
 
 [file_manager]
 enable_object_processing = True
+default_metadata_parser_timeout = 30
 
 [octoprint_compat]
 
@@ -32,6 +33,7 @@ enable_object_processing = True
 [update_manager]
 channel = dev
 refresh_interval = 168
+enable_auto_refresh = False
 
 [update_manager mainsail-config]
 type = git_repo
