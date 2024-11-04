@@ -7,7 +7,7 @@ Voron Trident Magicphoenix CBT lite (300x300x250) kit
 # Config
 
 
-Klipper configs for VT.1286 running Mainsail
+Klipper configs for VT.1286 running Mainsail and DangerKlipper
 
 
 
