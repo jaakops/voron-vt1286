@@ -104,8 +104,6 @@ BOM: https://mpx.wiki/VORON-TRIDENT-CBT-KIT/Trident-CBT-Bom#trident-cbt-lite
 
 ### Modifications
 
-* Chamber heater: 500w 230v https://lab4450.com/product-category/voron-v2-vt/heated-chamber/
-
 * Embiggened monolith panels ~~Annex Panel 2020 Clips and Hinges~~
 
 * Webcam mount: something very similar to [this](https://www.printables.com/model/404254-2020-alu-extrusion-webcam-mount-for-aukey-1080p-we) but for ov5648
