@@ -1,7 +1,7 @@
 [server]
 host = 0.0.0.0
 port = 7125
-klippy_uds_address = /home/biqu/printer_data/comms/klippy.sock
+klippy_uds_address = /home/pi/printer_data/comms/klippy.sock
 
 [authorization]
 trusted_clients = 
@@ -24,7 +24,6 @@ cors_domains =
 
 [file_manager]
 enable_object_processing = True
-default_metadata_parser_timeout = 30
 
 [octoprint_compat]
 
@@ -33,7 +32,6 @@ default_metadata_parser_timeout = 30
 [update_manager]
 channel = dev
 refresh_interval = 168
-enable_auto_refresh = False
 
 [update_manager mainsail-config]
 type = git_repo
@@ -108,8 +106,12 @@ install_script = install.sh
 
 [update_manager motors-sync]
 type = git_repo
-path = /home/biqu/motors-sync
+path = /home/pi/motors-sync
 origin = https://github.com/MRX8024/motors-sync.git
 primary_branch = main
 managed_services = klipper
+
+[spoolman]
+server = http://192.168.1.102:7912
+sync_rate = 5
 
