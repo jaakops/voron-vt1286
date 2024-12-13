@@ -1,5 +1,6 @@
 K-ShakeTune_results/*
 printer-*
 crowsnest.conf.2*
-*.bkp
+*.conf.bkp
 adxl_results/*
+*.db
