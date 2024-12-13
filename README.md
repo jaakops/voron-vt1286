@@ -7,7 +7,7 @@ Voron Trident Magicphoenix CBT lite (300x300x250) kit
 # Config
 
 
-Klipper configs for VT.1286 running Mainsail and DangerKlipper
+Klipper configs for VT.1286 running Kalico with Mainsail
 
 
 
@@ -24,7 +24,7 @@ BOM: https://mpx.wiki/VORON-TRIDENT-CBT-KIT/Trident-CBT-Bom#trident-cbt-lite
 
 * XY drivers: 4x BTT externals/5160T Plus
 
-* Z drivers: 2209
+* Z drivers: TMC2209
 
 * MCU: BTT Manta M8P V1.1
 
@@ -32,11 +32,11 @@ BOM: https://mpx.wiki/VORON-TRIDENT-CBT-KIT/Trident-CBT-Bom#trident-cbt-lite
 
 * PSU 48V: Meanwell UHP-200-48
 
-* Host: BTT CB1
+* Host: ~~BTT CB1~~ Raspberry CM4 lite 4GB
 
-* Display: None (mobileraker on phone)
+* Display: BTT HDMI5
 
-* Camera: Aliexpress 4 eur very bad
+* Camera: C270 + Aliexpress 4 eur very bad
 
 * Wifi relay: TP-Link Tapo P100 wifi plug
 
@@ -103,6 +103,8 @@ BOM: https://mpx.wiki/VORON-TRIDENT-CBT-KIT/Trident-CBT-Bom#trident-cbt-lite
 
 
 ### Modifications
+
+* Monolith Gantry AWD 6mm GT3  
 
 * Embiggened monolith panels ~~Annex Panel 2020 Clips and Hinges~~
 
