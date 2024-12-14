@@ -34,7 +34,7 @@ BOM: https://mpx.wiki/VORON-TRIDENT-CBT-KIT/Trident-CBT-Bom#trident-cbt-lite
 
 * Host: ~~BTT CB1~~ Raspberry CM4 lite 4GB
 
-* Display: BTT HDMI5
+* Display: BTT HDMI5 with [clicky clacky mod](https://www.printables.com/model/861544-btt-hdmi-5-display-voron-mount-works-with-clicky-c)
 
 * Camera: C270 + Aliexpress 4 eur very bad
 
@@ -71,7 +71,7 @@ BOM: https://mpx.wiki/VORON-TRIDENT-CBT-KIT/Trident-CBT-Bom#trident-cbt-lite
 
 * General enclosure: stock 3mm pc panels + embiggened monolith panels and 10mm "general" foam everywhere, except front and deck
 
-* Front door: Embiggened monolith and stock panels
+* Front door: Embiggened monolith and ~~stock panels~~ nanonest clicky clacky door with embiggened monolith mod by simonsaysty on monolith discord 
 
 * Foamtape: [Funssor 3mm](https://www.aliexpress.com/item/1005005424399100.html)
 
