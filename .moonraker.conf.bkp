@@ -15,6 +15,7 @@ trusted_clients =
 	100.79.221.66
 	100.69.127.133
 	100.102.14.116
+	127.0.0.1
 cors_domains = 
 	*.lan
 	*.local
@@ -67,6 +68,15 @@ primary_branch = main
 path = ~/moonraker-timelapse
 origin = https://github.com/mainsail-crew/moonraker-timelapse.git
 managed_services = klipper moonraker
+
+[update_manager KlipperScreen]
+type = git_repo
+path = ~/KlipperScreen
+origin = https://github.com/KlipperScreen/KlipperScreen.git
+virtualenv = ~/.KlipperScreen-env
+requirements = scripts/KlipperScreen-requirements.txt
+system_dependencies = scripts/system-dependencies.json
+managed_services = KlipperScreen
 
 [update_manager Klipper-Adaptive-Meshing-Purging]
 type = git_repo
