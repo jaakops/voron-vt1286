@@ -16,6 +16,8 @@ trusted_clients =
 	100.69.127.133
 	100.102.14.116
 	127.0.0.1
+	100.79.221.66
+	100.81.111.26
 cors_domains = 
 	*.lan
 	*.local
@@ -136,4 +138,12 @@ is_system_service = False
 managed_services = klipper
 info_tags = 
 	desc=Beacon Surface Scanner
+
+[update_manager klipper_auto_speed]
+type = git_repo
+path = ~/klipper_auto_speed
+origin = https://github.com/anonoei/klipper_auto_speed.git
+primary_branch = main
+install_script = install.sh
+managed_services = klipper
 
